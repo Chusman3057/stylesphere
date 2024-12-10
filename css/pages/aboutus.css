@@ -1,0 +1,44 @@
+/* aboutus.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.about_us {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.about_us h1 {
+  font-size: clamp(30px, 4vw, 38px);
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+.about_us h2 {
+  font-size: clamp(22px, 4vw, 28px);
+  font-weight: 600;
+  color: #000;
+  padding: 1rem 0 0;
+}
+
+.about_us ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.about_us ul li strong {
+display: block;
+}
+
+@media (max-width: 600px) {
+  .about_us {
+    padding: 10px;
+  }
+}
